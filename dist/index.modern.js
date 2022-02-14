@@ -1,5 +1,4 @@
 import React from 'react';
-import 'react-dropzone-uploader/dist/styles.css';
 import Dropzone$1 from 'react-dropzone-uploader';
 
 function _extends() {

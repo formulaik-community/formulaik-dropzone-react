@@ -1,7 +1,6 @@
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
 var React = _interopDefault(require('react'));
-require('react-dropzone-uploader/dist/styles.css');
 var Dropzone$1 = _interopDefault(require('react-dropzone-uploader'));
 
 function _extends() {
