@@ -23,8 +23,7 @@ var Dropzone = (function (props) {
   var onValueChanged = props.onValueChanged,
       initialValues = props.initialValues,
       _props$item = props.item,
-      id = _props$item.id,
-      itemProps = _props$item.props;
+      id = _props$item.id;
 
   var handleChangeStatus = function handleChangeStatus(fileWithMeta, status, allFilesWithMeta) {
     var items = allFilesWithMeta.map(function (item) {
@@ -44,7 +43,7 @@ var Dropzone = (function (props) {
     accept: "image/*,audio/*,video/*",
     initialFiles: initialValues[id] ? initialValues[id] : [],
     maxFiles: 1
-  }, itemProps));
+  }, onValueChanged));
 });
 
 var index = (function (props) {
