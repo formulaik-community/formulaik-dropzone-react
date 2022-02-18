@@ -20,7 +20,7 @@ function _extends() {
 }
 
 var Dropzone = (function (props) {
-  var customOnValueChanged = props.customOnValueChanged,
+  var onValueChanged = props.onValueChanged,
       initialValues = props.initialValues,
       _props$item = props.item,
       id = _props$item.id,
@@ -36,7 +36,7 @@ var Dropzone = (function (props) {
     }).filter(function (a) {
       return a;
     });
-    customOnValueChanged(items);
+    onValueChanged(items);
   };
 
   return /*#__PURE__*/React.createElement(Dropzone$1, _extends({

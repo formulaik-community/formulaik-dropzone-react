@@ -3,7 +3,7 @@ import React from 'react'
 import Dropzone from 'react-dropzone-uploader'
 
 export default (props) => {
-  const { customOnValueChanged, initialValues, errors, item: { id, props: itemProps } } = props
+  const { onValueChanged, initialValues, errors, item: { id, props: itemProps } } = props
 
   const handleChangeStatus = (fileWithMeta, status, allFilesWithMeta) => {
     const items = allFilesWithMeta.map((item) => {
@@ -12,7 +12,7 @@ export default (props) => {
       }
       return item.file
     }).filter(a => a)
-    customOnValueChanged(items)
+    onValueChanged(items)
   }
 
   return <Dropzone
