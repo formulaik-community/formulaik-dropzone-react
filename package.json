@@ -1,12 +1,12 @@
 {
-  "name": "@yelounak/formulaik-dropzone",
-  "version": "1.0.12",
-  "description": "Formulaik-dropzone components library.",
+  "name": "@yelounak/formulaik-react-dropzone",
+  "version": "1.0.121",
+  "description": "Formulaik-dropzone react components library.",
   "author": "yelounak",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yelounak/formulaik-dropzone"
+    "url": "https://github.com/yelounak/formulaik-react-dropzone"
   },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
@@ -31,7 +31,7 @@
   },
   "peerDependencies": {
     "react": ">= 0.16.0 < 18.0.0",
-    "@yelounak/formulaik": "^1.0.3",
+    "@yelounak/formulaik-react": "^1.0.3",
     "yup": "^0.32.11"
   },
   "dependencies": {
